@@ -1,0 +1,9 @@
+name: bumpr - Bump version when merging Pull Request with specific labels
+
+on: [pull_request]
+
+jobs:
+  bumpr:
+    name: bumpr - Bump version when merging Pull Request with specific labels
+    steps:
+    - uses: haya14busa/action-bumpr@v1.0.0
